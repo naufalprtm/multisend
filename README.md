@@ -103,7 +103,7 @@ Contoh pengiriman alamat
 
 pilih
 
-compile Bulksend.sol
+compile Distributor.sol
 
 # 2.Deploy
 

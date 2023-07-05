@@ -96,7 +96,16 @@ Contoh pengiriman alamat
 -----------------------------------------------------------------------------------------------------
 # Menggunakan Distributor
 -----------------------------------------------------------------------------------------------------
-# 1.Deploy
+
+# 1.Compile
+![dwd](https://github.com/naufalprtm/multisend/assets/103091329/0f9c17e3-75ed-4b09-a5a3-ea2156f079a5)
+
+
+pilih
+
+compile Bulksend.sol
+
+# 2.Deploy
 
 
 Pilih [CONTRACT compiled by Remix]
@@ -117,7 +126,7 @@ pada bagian [DEPLOY]
 
 
 
-# 2.Transfer
+# 3.Transfer
 -
 PASTIKAN SUDAH MENIGIRM TOKEN KE ALAMAT YANG BARU DI DEPLOY
 -

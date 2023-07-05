@@ -1,5 +1,4 @@
 # multisend
-tutorial multisend-bulksend
 
 Tutorial Bulksend-Distributor menggunakan remix IDE
 
@@ -26,7 +25,7 @@ lalu pilih bulksend-bulksend.sol pada bagian contract
 
 DEPLOY
 
-# 1 contoh(bulksend.sol):
+# 1. contoh(bulksend.sol):
 ubah address token yang telah kalian deploy /atau gunakan alamat token yang sudah tersedia
 
    
@@ -39,14 +38,22 @@ Selanjutnya kita menentukan jumlah token, perhatikan bahwa kita menggunakan USDC
 
     uint tokenAmount = 5000 * 1e18; // 5000 tokens
 
-atau gunakan GWEI converter untuk menetukan jumlahz
+atau gunakan GWEI converter untuk menetukan jumlah
+https://eth-converter.com/extended-converter.html
 
-# 2 Transfer token ke alamat bulksend
+menentukan jumlah ETH, cukup, yang setara dengan 0 ETH. Perhatikan bahwa kontrak ini mengirimkan ETH dan token sehingga Anda mungkin ingin menyesuaikannya dengan kebutuhan Anda.
 
-Sebelum menjalankan fungsi sendOutFunds() kita perlu mengirimkan token untuk dikirim. lakukan ini dengan mentransfer token ERC20 atau token kalian ke alamat kontrak yang baru digunakan.
+    uint ethAmount = 0; // 0 ETH
 
+# 2. Transfer token ke alamat bulksend
 
-Jika ingin melakukan spam transaksi bisa menggunkan address spam.txt
+Sebelum menjalankan fungsi sendOutFunds() kita perlu mengirimkan token untuk dikirim. lakukan ini dengan mentransfer token ERC20 atau token kalian ke alamat(bulksend) kontrak yang baru yang telah kalian deploy.
 
+# 3.Contoh pengiriman alamat
 
-tidak bertanggung jawab atas kerugian dari transaksi yang dihasilkan oleh MultiSender. Beberapa pustaka JavaScript yang mendasari dan alat Ethereum yang digunakan sedang dalam pengembangan aktif. Situs web dan smart contract telah diuji secara menyeluruh, selalu ada kemungkinan terjadi sesuatu yang tidak terduga yang mengakibatkan hilangnya Ethereum dan/atau token.
+["0xfb512fe04c7abf13231db8f732b65abd64b4af2a","0xefb9b41594bce853159fbe1fae7ba3a91b5d7926"]
+
+Jika ingin melakukan spam transaksi bisa menggunakan address spam.txt
+
+-----------------------------------------------------------------------------------------------------
+*tidak bertanggung jawab atas kerugian dari transaksi yang dihasilkan oleh MultiSender. Beberapa pustaka JavaScript yang mendasari dan alat Ethereum yang digunakan sedang dalam pengembangan aktif. Situs web dan smart contract telah diuji secara menyeluruh, selalu ada kemungkinan terjadi sesuatu yang tidak terduga yang mengakibatkan hilangnya Ethereum dan/atau token.*

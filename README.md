@@ -80,12 +80,12 @@ Sebelum menjalankan fungsi sendOutFunds() kita perlu mengirimkan token untuk dik
 
 # 3.Contoh pengiriman alamat
 -
-PASTIKAN SUDAH MENIGIRM TOKEN KE ALAMAT YANG BARU DI DEPLOY
+PASTIKAN SUDAH MENIGIRIM TOKEN KE ALAMAT YANG BARU DI DEPLOY
 -
 
 ![8](https://github.com/naufalprtm/multisend/assets/103091329/ed5e3d72-888d-45f5-b468-958cf5bcab9e)
 
-
+Contoh pengiriman alamat
 ["0xfb512fe04c7abf13231db8f732b65abd64b4af2a","0xefb9b41594bce853159fbe1fae7ba3a91b5d7926"]
 
 -----------------------------------------------------------------------------------------------------

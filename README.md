@@ -18,7 +18,7 @@ pilih versi solidity sesuai dengan contract di pengaturan
 
 pilih
 
-compile distributor.sol
+compile Bulksend.sol
 
 ![3](https://github.com/naufalprtm/multisend/assets/103091329/2e3ef572-831b-4819-bc13-a205747fe156)
 

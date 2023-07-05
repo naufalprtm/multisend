@@ -166,3 +166,10 @@ https://blockscout.scroll.io/tx/0xc5cfbcc8e1086e78fdcb0b01b10c95dae206e788d05f47
 -----------------------------------------------------------------------------------------------------
 *tidak bertanggung jawab atas kerugian dari transaksi yang dihasilkan oleh MultiSender. Beberapa pustaka JavaScript yang mendasari dan alat Ethereum yang digunakan sedang dalam pengembangan aktif. Situs web dan smart contract telah diuji secara menyeluruh, selalu ada kemungkinan terjadi sesuatu yang tidak terduga yang mengakibatkan hilangnya Ethereum dan/atau token.*
 -----------------------------------------------------------------------------------------------------
+
+-*give me a cup of coffee*-
+ETH/BSC
+
+0x2AAcf8c7e779751C81f5a910E1cD58A2DCDE3683
+
+

@@ -14,10 +14,38 @@ Pastikan MetaMask Anda diarahkan ke jaringan yang ingin Anda gunakan.
 pilih [bulksend.sol](https://github.com/naufalprtm/multisend/blob/main/bulksend.sol) / [distributor.sol](https://github.com/naufalprtm/multisend/blob/main/distributor.sol) dan deploy menggunakan https://remix.ethereum.org/
 pilih versi solidity sesuai dengan contract di pengaturan
 
+# 1. Mengganti alamat token
+ubah address token yang telah kalian deploy /atau gunakan alamat token yang sudah tersedia
 
+![7](https://github.com/naufalprtm/multisend/assets/103091329/0f52a779-aa94-4063-806a-6a4dc7d103ce)
+
+
+![32](https://github.com/naufalprtm/multisend/assets/103091329/0ed3645e-80f7-47cd-afcf-66ab601fb78f)
+
+
+   
+    address token = 0x2f3A40A3db8a7e3D09B0adfEfbCe4f6F81927557;
+    uint tokenAmount = 5000 * 1e6; // 5000 tokens
+    uint ethAmount = 5000000000000000; // 0.005 ETH
+
+    
+  ![Screenshot 2023-07-05 085233](https://github.com/naufalprtm/multisend/assets/103091329/7687792c-a773-4817-93a8-705082a26661)
+  
+  
+Selanjutnya kita menentukan jumlah token, perhatikan bahwa kita menggunakan USDC di sini yang memiliki 6 desimal sedangkan sebagian besar token memiliki 18. Jika Anda menggunakan sesuatu yang standar, Anda akan menggunakan kode ini:
+
+
+    uint tokenAmount = 5000 * 1e18; // 5000 tokens
+
+atau gunakan GWEI converter untuk menetukan jumlah
+https://eth-converter.com/
+
+menentukan jumlah ETH, cukup, yang setara dengan 0 ETH. Perhatikan bahwa kontrak ini mengirimkan ETH dan token sehingga Anda mungkin ingin menyesuaikannya dengan kebutuhan Anda.
+
+    uint ethAmount = 0; // 0 ETH
 
 # Menggunakan Bulksend
-# 1.Compile
+# 2.Compile
 
 
 pilih
@@ -48,35 +76,7 @@ lalu pilih bulksend-bulksend.sol pada bagian contract
 
 DEPLOY
 
-# 2. Mengganti alamat token
-ubah address token yang telah kalian deploy /atau gunakan alamat token yang sudah tersedia
 
-![7](https://github.com/naufalprtm/multisend/assets/103091329/0f52a779-aa94-4063-806a-6a4dc7d103ce)
-
-
-![32](https://github.com/naufalprtm/multisend/assets/103091329/0ed3645e-80f7-47cd-afcf-66ab601fb78f)
-
-
-   
-    address token = 0x2f3A40A3db8a7e3D09B0adfEfbCe4f6F81927557;
-    uint tokenAmount = 5000 * 1e6; // 5000 tokens
-    uint ethAmount = 5000000000000000; // 0.005 ETH
-
-    
-  ![Screenshot 2023-07-05 085233](https://github.com/naufalprtm/multisend/assets/103091329/7687792c-a773-4817-93a8-705082a26661)
-  
-  
-Selanjutnya kita menentukan jumlah token, perhatikan bahwa kita menggunakan USDC di sini yang memiliki 6 desimal sedangkan sebagian besar token memiliki 18. Jika Anda menggunakan sesuatu yang standar, Anda akan menggunakan kode ini:
-
-
-    uint tokenAmount = 5000 * 1e18; // 5000 tokens
-
-atau gunakan GWEI converter untuk menetukan jumlah
-https://eth-converter.com/
-
-menentukan jumlah ETH, cukup, yang setara dengan 0 ETH. Perhatikan bahwa kontrak ini mengirimkan ETH dan token sehingga Anda mungkin ingin menyesuaikannya dengan kebutuhan Anda.
-
-    uint ethAmount = 0; // 0 ETH
 
 # 3. Transfer token ke alamat bulksend
 

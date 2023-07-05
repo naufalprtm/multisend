@@ -139,7 +139,7 @@ Pilih sendAmount
 
 
 
-Jika ingin melakukan spam transaksi bisa menggunakan [address spam.txt](https://github.com/naufalprtm/multisend/blob/main/batch%20addres.txt](https://github.com/naufalprtm/multisend/blob/main/addres.txt))
+Jika ingin melakukan spam transaksi bisa menggunakan https://github.com/naufalprtm/multisend/blob/main/addres.txt
 -----------------------------------------------------------------------------------------------------
 
 

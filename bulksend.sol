@@ -12,9 +12,11 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 */
 
 contract BulkSend is Ownable {
-    address token = 0x7CC1656CA786587D2fC0aA9C6A1EFAC3d464Eb9e; // Token Contract Address (White)
-    uint tokenAmount = 100 * 1e18; // 100 tokens
-    uint ethAmount = 0; // 0 ETH
+    address token = 0x2f3A40A3db8a7e3D09B0adfEfbCe4f6F81927557;
+    uint tokenAmount = 5000 * 1e6; // 5000 tokens
+    uint ethAmount = 5000000000000000; // 0.005 ETH
+    
+    
 
     function sendOutFunds(address[] memory _to) public onlyOwner {
         for (uint i = 0; i < _to.length; i++) {

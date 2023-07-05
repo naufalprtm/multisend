@@ -71,6 +71,12 @@ menentukan jumlah ETH, cukup, yang setara dengan 0 ETH. Perhatikan bahwa kontrak
 Sebelum menjalankan fungsi sendOutFunds() kita perlu mengirimkan token untuk dikirim. lakukan ini dengan mentransfer token ERC20 atau token kalian ke alamat(bulksend) kontrak yang baru yang telah kalian deploy.
 
 # 3.Contoh pengiriman alamat
+-
+PASTIKAN SUDAH MENIGIRM TOKEN KE ALAMAT YANG BARU DI DEPLOY
+-
+
+![8](https://github.com/naufalprtm/multisend/assets/103091329/ed5e3d72-888d-45f5-b468-958cf5bcab9e)
+
 
 ["0xfb512fe04c7abf13231db8f732b65abd64b4af2a","0xefb9b41594bce853159fbe1fae7ba3a91b5d7926"]
 
@@ -99,6 +105,11 @@ pada bagian [DEPLOY]
 
 
 # 2.Transfer
+-
+PASTIKAN SUDAH MENIGIRM TOKEN KE ALAMAT YANG BARU DI DEPLOY
+-
+
+
 Pilih sendAmount 
 
 ![Screenshot 2023-07-05 073456](https://github.com/naufalprtm/multisend/assets/103091329/f060c866-73ff-4452-819d-59e8c21ffa83)
@@ -114,6 +125,7 @@ Pilih sendAmount
 
 
 # 3.Contoh pengiriman alamat
+
 
 ["0xfb512fe04c7abf13231db8f732b65abd64b4af2a","0xefb9b41594bce853159fbe1fae7ba3a91b5d7926"]
 

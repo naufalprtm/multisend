@@ -76,7 +76,18 @@ pada bagian [DEPLOY]
 
 # 2.Transfer
 Pilih sendAmount 
+
 ![Screenshot 2023-07-05 073456](https://github.com/naufalprtm/multisend/assets/103091329/87af1d01-4f27-49a1-aa3a-4240a9567c77)
+
+Isi User alamat address
+Value=Jumlah token
+
+*catatan*
+(semua addres akan menerima token dengan jumlah yang sama)
+
+![Screenshot 2023-07-05 073456](https://github.com/naufalprtm/multisend/assets/103091329/f060c866-73ff-4452-819d-59e8c21ffa83)
+
+
 
 
 # 3.Contoh pengiriman alamat

@@ -2,11 +2,12 @@
 
 Tutorial Bulksend-Distributor menggunakan remix IDE
 
-Catatan
-Sebelum menggunakan ini gunakan wallet baru dan gunakan saldo testnet
-
 -----------------------------------------------------------------------------------------------------
-Instal Metamask.
+# Catatan
+Sebelum menggunakan ini gunakan wallet baru dan gunakan saldo testnet
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+Install Metamask.
 Pastikan Anda memiliki akun di MetaMask yang memiliki saldo token.
 Pastikan MetaMask Anda diarahkan ke jaringan yang ingin Anda gunakan.
 
@@ -53,7 +54,11 @@ Sebelum menjalankan fungsi sendOutFunds() kita perlu mengirimkan token untuk dik
 
 ["0xfb512fe04c7abf13231db8f732b65abd64b4af2a","0xefb9b41594bce853159fbe1fae7ba3a91b5d7926"]
 
-Jika ingin melakukan spam transaksi bisa menggunakan address spam.txt
+Jika ingin melakukan spam transaksi bisa menggunakan [address spam.txt](https://github.com/naufalprtm/multisend/blob/main/batch%20addres.txt)
+-----------------------------------------------------------------------------------------------------
+
+
 
 -----------------------------------------------------------------------------------------------------
 *tidak bertanggung jawab atas kerugian dari transaksi yang dihasilkan oleh MultiSender. Beberapa pustaka JavaScript yang mendasari dan alat Ethereum yang digunakan sedang dalam pengembangan aktif. Situs web dan smart contract telah diuji secara menyeluruh, selalu ada kemungkinan terjadi sesuatu yang tidak terduga yang mengakibatkan hilangnya Ethereum dan/atau token.*
+-----------------------------------------------------------------------------------------------------

@@ -13,6 +13,18 @@ Pastikan MetaMask Anda diarahkan ke jaringan yang ingin Anda gunakan.
 
 pilih [bulksend.sol](https://github.com/naufalprtm/multisend/blob/main/bulksend.sol) / [distributor.sol](https://github.com/naufalprtm/multisend/blob/main/distributor.sol) dan deploy menggunakan https://remix.ethereum.org/
 pilih versi solidity sesuai dengan contract di pengaturan
+
+# Compile
+
+pilih
+
+compile distributor.sol
+
+![Screenshot 2023-07-05 073456](https://github.com/naufalprtm/multisend/assets/103091329/c9715fcc-c5b2-4bc7-809a-47ad33e1fba1)
+
+
+
+
 pergi ke >DEPLOY & RUN TRANSACTIONS
 
 ![Screenshot 2023-07-03 082511](https://github.com/naufalprtm/multisend/assets/103091329/53c91705-a3d7-4210-8310-1f09e2b97139)
@@ -20,6 +32,8 @@ pergi ke >DEPLOY & RUN TRANSACTIONS
 
 
 ENVIRONMENT  "pilih injected provider"
+
+
 lalu pilih bulksend-bulksend.sol pada bagian contract
 
 ![Screenshot 2023-07-03 082511](https://github.com/naufalprtm/multisend/assets/103091329/8555a6d7-dc6d-4672-aa80-47dcc2bb2897)

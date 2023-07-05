@@ -60,7 +60,7 @@ Selanjutnya kita menentukan jumlah token, perhatikan bahwa kita menggunakan USDC
     uint tokenAmount = 5000 * 1e18; // 5000 tokens
 
 atau gunakan GWEI converter untuk menetukan jumlah
-https://eth-converter.com/extended-converter.html
+https://eth-converter.com/
 
 menentukan jumlah ETH, cukup, yang setara dengan 0 ETH. Perhatikan bahwa kontrak ini mengirimkan ETH dan token sehingga Anda mungkin ingin menyesuaikannya dengan kebutuhan Anda.
 

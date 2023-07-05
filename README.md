@@ -154,8 +154,8 @@ Pilih sendAmount
 
 
 Jika ingin melakukan spam transaksi bisa menggunakan 
-https://github.com/naufalprtm/multisend/blob/main/address
-https://github.com/naufalprtm/multisend/blob/main/address2
+- https://github.com/naufalprtm/multisend/blob/main/address
+- https://github.com/naufalprtm/multisend/blob/main/address2
 
 -----------------------------------------------------------------------------------------------------
 

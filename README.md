@@ -49,6 +49,10 @@ ubah address token yang telah kalian deploy /atau gunakan alamat token yang suda
 
 ![7](https://github.com/naufalprtm/multisend/assets/103091329/0f52a779-aa94-4063-806a-6a4dc7d103ce)
 
+
+![32](https://github.com/naufalprtm/multisend/assets/103091329/0ed3645e-80f7-47cd-afcf-66ab601fb78f)
+
+
    
     address token = 0x2f3A40A3db8a7e3D09B0adfEfbCe4f6F81927557;
     uint tokenAmount = 5000 * 1e6; // 5000 tokens

@@ -14,6 +14,8 @@ Pastikan MetaMask Anda diarahkan ke jaringan yang ingin Anda gunakan.
 pilih [bulksend.sol](https://github.com/naufalprtm/multisend/blob/main/bulksend.sol) / [distributor.sol](https://github.com/naufalprtm/multisend/blob/main/distributor.sol) dan deploy menggunakan https://remix.ethereum.org/
 pilih versi solidity sesuai dengan contract di pengaturan
 
+# Menggunakan Bulksend
+
 # 1. Mengganti alamat token
 ubah address token yang telah kalian deploy /atau gunakan alamat token yang sudah tersedia
 
@@ -44,7 +46,6 @@ menentukan jumlah ETH, cukup, yang setara dengan 0 ETH. Perhatikan bahwa kontrak
 
     uint ethAmount = 0; // 0 ETH
 
-# Menggunakan Bulksend
 # 2.Compile
 
 

@@ -57,7 +57,11 @@ ubah address token yang telah kalian deploy /atau gunakan alamat token yang suda
     address token = 0x2f3A40A3db8a7e3D09B0adfEfbCe4f6F81927557;
     uint tokenAmount = 5000 * 1e6; // 5000 tokens
     uint ethAmount = 5000000000000000; // 0.005 ETH
+
     
+  ![Screenshot 2023-07-05 085233](https://github.com/naufalprtm/multisend/assets/103091329/7687792c-a773-4817-93a8-705082a26661)
+  
+  
 Selanjutnya kita menentukan jumlah token, perhatikan bahwa kita menggunakan USDC di sini yang memiliki 6 desimal sedangkan sebagian besar token memiliki 18. Jika Anda menggunakan sesuatu yang standar, Anda akan menggunakan kode ini:
 
 

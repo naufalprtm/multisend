@@ -142,7 +142,9 @@ Pilih sendAmount
 Jika ingin melakukan spam transaksi bisa menggunakan https://github.com/naufalprtm/multisend/blob/main/addres.txt
 -----------------------------------------------------------------------------------------------------
 
+# contoh tx
 
+https://blockscout.scroll.io/tx/0xc5cfbcc8e1086e78fdcb0b01b10c95dae206e788d05f470b7dec37997e307244
 
 -----------------------------------------------------------------------------------------------------
 *tidak bertanggung jawab atas kerugian dari transaksi yang dihasilkan oleh MultiSender. Beberapa pustaka JavaScript yang mendasari dan alat Ethereum yang digunakan sedang dalam pengembangan aktif. Situs web dan smart contract telah diuji secara menyeluruh, selalu ada kemungkinan terjadi sesuatu yang tidak terduga yang mengakibatkan hilangnya Ethereum dan/atau token.*

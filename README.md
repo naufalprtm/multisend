@@ -20,23 +20,27 @@ pilih
 
 compile distributor.sol
 
-![Screenshot 2023-07-05 073456](https://github.com/naufalprtm/multisend/assets/103091329/c9715fcc-c5b2-4bc7-809a-47ad33e1fba1)
+![3](https://github.com/naufalprtm/multisend/assets/103091329/2e3ef572-831b-4819-bc13-a205747fe156)
+
 
 
 
 
 pergi ke >DEPLOY & RUN TRANSACTIONS
 
-![Screenshot 2023-07-03 082511](https://github.com/naufalprtm/multisend/assets/103091329/53c91705-a3d7-4210-8310-1f09e2b97139)
-
-
-
 ENVIRONMENT  "pilih injected provider"
+
+
+![1](https://github.com/naufalprtm/multisend/assets/103091329/2be9f183-02f7-498d-9c11-f4de1430932b)
+
+
+
+
 
 
 lalu pilih bulksend-bulksend.sol pada bagian contract
 
-![Screenshot 2023-07-03 082511](https://github.com/naufalprtm/multisend/assets/103091329/8555a6d7-dc6d-4672-aa80-47dcc2bb2897)
+
 
 DEPLOY
 
@@ -73,33 +77,36 @@ Sebelum menjalankan fungsi sendOutFunds() kita perlu mengirimkan token untuk dik
 -----------------------------------------------------------------------------------------------------
 # 1.Deploy
 
-![Screenshot 2023-07-03 082511](https://github.com/naufalprtm/multisend/assets/103091329/9f16c485-457f-4eb9-b939-edeb732529e0)
 
 Pilih [CONTRACT compiled by Remix]
 
 TokenDistributor - distributor.sol
 
+![4](https://github.com/naufalprtm/multisend/assets/103091329/8540b201-2283-434f-b893-95709fd20e3b)
+
 isi address token yang telah kalian deploy /atau gunakan alamat token yang sudah tersedia
 pada bagian [DEPLOY]  
 
 #    contoh
-0xfb512fe04c7abf13231db8f732b65abd64b4af2a,18
 
+            _CONTRACT:0xfb512fe04c7abf13231db8f732b65abd64b4af2a
+            _TOKENDECIMAL:18
+            
+![5](https://github.com/naufalprtm/multisend/assets/103091329/e45645b4-13c8-432b-be27-ca39cbf8a1e6)
 
 
 
 # 2.Transfer
 Pilih sendAmount 
 
-![Screenshot 2023-07-05 073456](https://github.com/naufalprtm/multisend/assets/103091329/87af1d01-4f27-49a1-aa3a-4240a9567c77)
+![Screenshot 2023-07-05 073456](https://github.com/naufalprtm/multisend/assets/103091329/f060c866-73ff-4452-819d-59e8c21ffa83)
 
-Isi User alamat address
-Value=Jumlah token
+          Isi User=alamat address
+          Value=Jumlah token
 
 *catatan*
 (semua addres akan menerima token dengan jumlah yang sama)
 
-![Screenshot 2023-07-05 073456](https://github.com/naufalprtm/multisend/assets/103091329/f060c866-73ff-4452-819d-59e8c21ffa83)
 
 
 

@@ -54,6 +54,31 @@ Sebelum menjalankan fungsi sendOutFunds() kita perlu mengirimkan token untuk dik
 
 ["0xfb512fe04c7abf13231db8f732b65abd64b4af2a","0xefb9b41594bce853159fbe1fae7ba3a91b5d7926"]
 
+-----------------------------------------------------------------------------------------------------
+# Menggunakan Distributor
+-----------------------------------------------------------------------------------------------------
+# 1.Deploy
+isi address token yang telah kalian deploy /atau gunakan alamat token yang sudah tersedia
+pada bagian CONTRACT compiled by Remix
+
+TokenDistributor - distributor.sol
+
+ [DEPLOY] 
+
+
+![Screenshot 2023-07-03 082511](https://github.com/naufalprtm/multisend/assets/103091329/9f16c485-457f-4eb9-b939-edeb732529e0)
+
+# 2.Transfer
+
+![Screenshot 2023-07-05 073456](https://github.com/naufalprtm/multisend/assets/103091329/87af1d01-4f27-49a1-aa3a-4240a9567c77)
+
+
+# 3.Contoh pengiriman alamat
+
+["0xfb512fe04c7abf13231db8f732b65abd64b4af2a","0xefb9b41594bce853159fbe1fae7ba3a91b5d7926"]
+
+
+
 Jika ingin melakukan spam transaksi bisa menggunakan [address spam.txt](https://github.com/naufalprtm/multisend/blob/main/batch%20addres.txt)
 -----------------------------------------------------------------------------------------------------
 

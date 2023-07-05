@@ -17,8 +17,10 @@ pilih versi solidity sesuai dengan contract di pengaturan
 
 
 # Menggunakan Bulksend
+# 1.
 
-# Compile
+-Compile
+-
 
 pilih
 
@@ -48,7 +50,7 @@ lalu pilih bulksend-bulksend.sol pada bagian contract
 
 DEPLOY
 
-# 1.
+# 2.
 ubah address token yang telah kalian deploy /atau gunakan alamat token yang sudah tersedia
 
 ![7](https://github.com/naufalprtm/multisend/assets/103091329/0f52a779-aa94-4063-806a-6a4dc7d103ce)
@@ -78,11 +80,11 @@ menentukan jumlah ETH, cukup, yang setara dengan 0 ETH. Perhatikan bahwa kontrak
 
     uint ethAmount = 0; // 0 ETH
 
-# 2. Transfer token ke alamat bulksend
+# 3. Transfer token ke alamat bulksend
 
 Sebelum menjalankan fungsi sendOutFunds() kita perlu mengirimkan token untuk dikirim. lakukan ini dengan mentransfer token ERC20 atau token kalian ke alamat(bulksend) kontrak yang baru yang telah kalian deploy.
 
-# 3.Contoh pengiriman alamat
+# 4.Contoh pengiriman alamat
 -
 PASTIKAN SUDAH MENIGIRIM TOKEN KE ALAMAT YANG BARU DI DEPLOY
 -

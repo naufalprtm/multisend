@@ -17,10 +17,8 @@ pilih versi solidity sesuai dengan contract di pengaturan
 
 
 # Menggunakan Bulksend
-# 1.
+# 1.Compile
 
--Compile
--
 
 pilih
 

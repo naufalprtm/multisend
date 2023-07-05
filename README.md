@@ -50,7 +50,7 @@ lalu pilih bulksend-bulksend.sol pada bagian contract
 
 DEPLOY
 
-# 2.
+# 2. Mengganti alamat token
 ubah address token yang telah kalian deploy /atau gunakan alamat token yang sudah tersedia
 
 ![7](https://github.com/naufalprtm/multisend/assets/103091329/0f52a779-aa94-4063-806a-6a4dc7d103ce)
